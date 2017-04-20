@@ -1,5 +1,9 @@
 # machine-learning-tutorials
-Machine Learning Tutorials
+
+Tutorials that provide intuition about the separating planes and surfaces of
+linear and non-linear classifiers.
+
+![hyperplanes](images/hyperplanes.png)
 
 ### Requirements
 
