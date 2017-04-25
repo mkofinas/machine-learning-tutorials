@@ -22,7 +22,7 @@ def generate_parabolic_data(N, D, K, seed=0):
     for j in xrange(K):
         ix = range(N * j, N * (j + 1))
         x_c = np.linspace(-1, 1, N)
-        y_c = np.cos(x_c) - 0.5 * j
+        y_c = x_c ** 2 - 0.5 * j
         X[ix] = np.c_[x_c, y_c]
         y[ix] = j
     return X, y
